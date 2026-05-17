@@ -14,5 +14,5 @@ ScreenDimensions getScreenDimensions()
 	NSRect visibleRect = [[NSScreen mainScreen] visibleFrame];
 	CGFloat visibleWidth = visibleRect.size.width;
 	CGFloat visibleHeight = visibleRect.size.height;
-	return { (int)visibleWidth, (int)visibleHeight };
+	return { (int)visibleHeight, (int)visibleWidth };
 }
